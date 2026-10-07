@@ -1,40 +1,22 @@
-<!-- fallback_BlockExplorerDiamond_20260901123001_25268 -->
-
 # BlockExplorerDiamond
 
-A simple BlockExplorerDiamond Dashboard for Smart contract execution.
+BlockExplorerDiamond is a small JavaScript command-line starter. It currently runs a deterministic in-memory processing cycle and includes retry scaffolding. It does not connect to a blockchain, database, or external API.
 
-The key benefits of using BlockExplorerDiamond include:
+## Install and run
 
-- A simple BlockExplorerDiamond Dashboard for Smart contract execution
+```bash
+git clone https://github.com/centxyz/BlockExplorerDiamond.git
+cd BlockExplorerDiamond
+npm install
+npm start -- --verbose
+```
 
-## Key Features
+## Test
 
-- A simple BlockExplorerDiamond Dashboard for Smart contract execution
-
-## Technology Stack
-
-- python
-- python framework (Flask/Django/FastAPI or equivalent)
-- Pytest for testing
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/centxyz/BlockExplorerDiamond.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the test suite: `pytest`
-
-## Configuration
-
-To configure BlockExplorerDiamond, modify the settings in the configuration file. Options include:
-- **DEBUG**: Enable or disable debug mode.
-- **ALLOWED_HOSTS**: Set allowed hostnames.
-- **DATABASES**: Configure database settings.
-
-## Contributing
-
-Contributions are welcome. Open an issue for bugs or feature requests, or submit a pull request with your changes.
+```bash
+npm test
+```
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/centxyz/BlockExplorerDiamond/blob/main/LICENSE) file for details.
+MIT
