@@ -1,8 +1,8 @@
-# BlockExplorerDiamond
+# LocalEVMIndex
 
-[![CI](https://github.com/centxyz/BlockExplorerDiamond/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/BlockExplorerDiamond/actions/workflows/ci.yml)
+[![CI](https://github.com/centxyz/LocalEVMIndex/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/LocalEVMIndex/actions/workflows/ci.yml)
 
-BlockExplorerDiamond is a working local EVM block explorer and indexer. It reads blocks from any Ethereum-compatible JSON-RPC endpoint, builds a durable local index, and lets you inspect blocks, transactions, and address activity without sending data to a third-party explorer.
+LocalEVMIndex is a working local EVM block explorer and indexer. It reads blocks from any Ethereum-compatible JSON-RPC endpoint, builds a durable local index, and lets you inspect blocks, transactions, and address activity without sending data to a third-party explorer.
 
 ## What it does
 
@@ -16,8 +16,8 @@ BlockExplorerDiamond is a working local EVM block explorer and indexer. It reads
 ## Install
 
 ```bash
-git clone https://github.com/centxyz/BlockExplorerDiamond.git
-cd BlockExplorerDiamond
+git clone https://github.com/centxyz/LocalEVMIndex.git
+cd LocalEVMIndex
 npm install
 ```
 
