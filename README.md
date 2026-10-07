@@ -48,3 +48,9 @@ Tests use a deterministic mock JSON-RPC server contract and require no funded wa
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- The index reflects the configured JSON-RPC node and the explicit block range that has been synchronized.
+- It does not independently validate consensus or replace an archival node.
+- Large chain ranges require substantial time and local storage.
