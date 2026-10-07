@@ -1,14 +1,14 @@
 {
   "name": "blockexplorerdiamond",
   "version": "1.0.0",
-  "description": "BlockExplorerDiamond JavaScript starter processor with retry scaffolding",
+  "description": "Local EVM JSON-RPC block indexer and explorer CLI",
   "main": "src/index.js",
+  "bin": {
+    "blockexplorerdiamond": "src/index.js"
+  },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test": "node --test tests/*.test.js"
   },
   "keywords": [
     "javascript",
@@ -19,9 +19,5 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.8"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "nodemon": "^3.0.1"
   }
 }
